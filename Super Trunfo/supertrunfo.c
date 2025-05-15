@@ -50,8 +50,8 @@ int main() {
     printf("codigo da carta: %s\n", codigo_carta1);
     printf("Nome da Cidade: %s\n", cidade1);
     printf("Populacao: %d\n", populacao1);
-    printf("Area: %.0f Km2\n", area1);
-    printf("PIB: %.0f\n", PIB1);
+    printf("Area: %.2f Km2\n", area1);
+    printf("PIB: %.2f\n", PIB1);
     printf("Numero de pontos turisticos: %d\n", n_pontos_turisticos1);
 
         //PIB percapita e Densidade populacional
@@ -96,8 +96,8 @@ int main() {
     printf("codigo da carta: %s\n", codigo_carta2);
     printf("Nome da Cidade: %s\n", cidade2);
     printf("Populacao: %d\n", populacao2);
-    printf("Area: %.0f Km2\n", area2);
-    printf("PIB: %.0f\n", PIB2);
+    printf("Area: %.2f Km2\n", area2);
+    printf("PIB: %.2f\n", PIB2);
     printf("Numero de pontos turisticos: %d\n", n_pontos_turisticos2);
     
         //PIB percapita e Densidade populacional
@@ -146,7 +146,7 @@ int main() {
     case 3:
         printf("Estado 1: %s\nEstado 2: %s\n", estado1, estado2);
         printf("Atributo Escolhido: Area\n");
-        printf("Area Estado 1: %d\nArea Estado 2: %d\n", area1, area2);
+        printf("Area Estado 1: %.2f\nArea Estado 2: %.2f\n", area1, area2);
 
             if(area1 > area2){
                 printf("Carta 1 Vencedora\n");
@@ -161,7 +161,7 @@ int main() {
     case 4:
         printf("Estado 1: %s\nEstado 2: %s\n", estado1, estado2);
         printf("Atributo Escolhido: PIB\n");
-        printf("PIB Estado 1: %d\nPIB Estado 2: %d\n", PIB1, PIB2);
+        printf("PIB Estado 1: %2.f\nPIB Estado 2: %2.f\n", PIB1, PIB2);
 
             if(PIB1 > PIB2){
                 printf("Carta 1 Vencedora\n");
@@ -191,7 +191,7 @@ int main() {
     case 6:
         printf("Estado 1: %s\nEstado 2: %s\n", estado1, estado2);
         printf("Atributo Escolhido: Densidade Populacional\n");
-        printf("Densidade Populacional Estado 1: %d\nDensidade Populacional Estado 2: %d\n", densidade_populacional1, densidade_populacional2);
+        printf("Densidade Populacional Estado 1: %2.f\nDensidade Populacional Estado 2: %2.f\n", densidade_populacional1, densidade_populacional2);
 
             if(densidade_populacional2 > densidade_populacional1){
                 printf("Carta 1 Vencedora\n");
@@ -206,7 +206,7 @@ int main() {
     case 7:
         printf("Estado 1: %s\nEstado 2: %s\n", estado1, estado2);
         printf("Atributo Escolhido: PIB per Capita\n");
-        printf("PIB per Capita Estado 1: %d\nPIB per Capita Estado 2: %d\n", PIB_capita1, PIB_capita2);
+        printf("PIB per Capita Estado 1: %2.f\nPIB per Capita Estado 2: %2.f\n", PIB_capita1, PIB_capita2);
 
             if(PIB_capita1 > PIB_capita2){
                 printf("Carta 1 Vencedora\n");
